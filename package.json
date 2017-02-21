@@ -1,0 +1,18 @@
+{
+  "name": "fortressbooksite",
+  "version": "1.0.0",
+  "description": "Website for Randy Crofton's Book Series: Fortress Church Series",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fortressbookseries"
+  },
+  "author": "JK Tech",
+  "license": "MIT"
+}
