@@ -9,7 +9,107 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+.pictureBackground1 {
+    background-image: url("../img/fortressSiteHeaderImage.jpeg");
 
+    height: 750px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground2 {
+    background-image: url("https://static.pexels.com/photos/165553/pexels-photo-165553.jpeg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground3 {
+    background-image: url("https://static.pexels.com/photos/158316/kinzig-fischer-bach-black-forest-water-158316.jpeg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pictureBackground4 {
+    background-image: url("https://static.pexels.com/photos/134586/pexels-photo-134586.jpeg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pictureBackground5 {
+    background-image: url("https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground6 {
+    background-image: url("https://static.pexels.com/photos/237298/pexels-photo-237298.jpeg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground7 {
+    background-image: url("https://static.pexels.com/photos/28506/pexels-photo-28506.jpg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground8 {
+    background-image: url("https://static.pexels.com/photos/247175/pexels-photo-247175.jpeg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground9 {
+    background-image: url("https://static.pexels.com/photos/28505/pexels-photo-28505.jpg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictureBackground10 {
+     background-image: url("https://static.pexels.com/photos/192651/pexels-photo-192651.jpeg");
+
+     height: 500px;/* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: 90%;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+.pictureBackground11 {
+    background-image: url("https://static.pexels.com/photos/111255/pexels-photo-111255.jpeg");
+
+    height: 500px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 html {
     color: #222;
     font-size: 1em;
