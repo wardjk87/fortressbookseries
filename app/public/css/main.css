@@ -110,6 +110,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.imgSocialMediaDiabetesThree {
+    padding: 25px;
+    display: table;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+}
+
 html {
     color: #222;
     font-size: 1em;
