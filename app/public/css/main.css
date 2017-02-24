@@ -91,8 +91,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.slide-animate {
+    transition: all linear 1.5s;
 
+}
 
+.slide-animate.ng-hide {
+    animation:0.5s lightSpeedOut ease;
+    opacity: 0;
+}
+.slide-animate.ng-hide-add {
+    transition: all 0.5s linear;
+}
+.check-element {
+    opacity: 1;
+
+}
+
+.slide-animate.ng-hide-remove {
+
+}
 .btn-ghost {
     color: #fff;
     background-color: transparent;
@@ -305,12 +323,259 @@ fieldset[disabled] .btn-ghost.focus {
 #bookTitle {
     font-family: 'Black Ops One', cursive;
     font-size: 200px;
-    margin-top:250px;
-    color: rgba(203,0,0,0.85);
+    margin-top: 250px;
+    color: rgba(203, 0, 0, 0.85);
     text-shadow: 10px 10px 10px #2e2e2e;
     letter-spacing: 2px;
-
 }
+.animation-one {
+    -webkit-animation-duration:  1.5s;
+    -moz-animation-duration:  1.5s;
+    animation-duration:  1.5s;
+    -moz-animation-delay:  1.5s;
+    -webkit-animation-delay:  1.5s;
+    animation-delay:  1s;
+    opacity: 1;
+}
+
+.animation-one.bounceInLeft {
+    opacity: 1;
+}
+
+
+.animation-two {
+    -webkit-animation-duration:  1.5s;
+    -moz-animation-duration:  1.5s;
+    animation-duration:  1.5s;
+    -moz-animation-delay:  3.5s;
+    -webkit-animation-delay:  3.5s;
+    animation-delay:  2.5s;
+    opacity: 1;
+}
+.animation-two.bounceInLeft{
+    opacity:1;
+}
+
+
+.animation-three {
+    -webkit-animation-duration:  1.5s;
+    -moz-animation-duration:  1.5s;
+    animation-duration:  1.5s;
+    -moz-animation-delay:  6.5s;
+    -webkit-animation-delay:  6.5s;
+    animation-delay:  4.5s;
+    opacity: 1;
+}
+.animation-three.bounceInLeft{
+    opacity:1;
+}
+
+
+.animation-four {
+    -webkit-animation-duration:  1.5s;
+    -moz-animation-duration:  1.5s;
+    animation-duration:  1.5s;
+    -moz-animation-delay:  6.5s;
+    -webkit-animation-delay:  6.5s;
+    animation-delay:  6.5s;
+    opacity: 1;
+}
+.animation-four.bounceInLeft{
+    opacity:1;
+}
+
+.animation-five {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  8.5s;
+     opacity: 1;
+ }
+.animation-five.bounceInLeft{
+    opacity:1;
+}
+
+
+.animation-six {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  10.5s;
+     opacity: 1;
+ }
+.animation-six.bounceInLeft{
+    opacity:1;
+}
+.animation-seven {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  12.5s;
+     opacity: 1;
+ }
+.animation-seven.bounceInLeft{
+    opacity:1;
+}
+
+.animation-eight {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  14.5s;
+     opacity: 1;
+ }
+.animation-eight.bounceInLeft{
+    opacity:1;
+}
+
+.animation-nine {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  16.5s;
+     opacity: 1;
+ }
+.animation-nine.bounceInLeft{
+    opacity:1;
+}
+
+.animation-ten {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  18.5s;
+     opacity: 1;
+ }
+.animation-ten.bounceInLeft{
+    opacity:1;
+}
+.animation-eleven {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  20.5s;
+     opacity: 1;
+ }
+.animation-eleven.bounceInLeft{
+    opacity:1;
+}
+.animation-twelve {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  22.5s;
+     opacity: 1;
+ }
+.animation-twelve.bounceInLeft{
+    opacity:1;
+}
+.animation-thirteen {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  24.5s;
+     opacity: 1;
+ }
+.animation-thirteen.bounceInLeft{
+    opacity:1;
+}
+.animation-fourteen {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  26.5s;
+     opacity: 1;
+ }
+.animation-fourteen.bounceInLeft{
+    opacity:1;
+}
+
+.animation-fifteen {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  28.5s;
+     opacity: 1;
+ }
+.animation-fifteen.bounceInLeft{
+    opacity:1;
+}
+.animation-sixteen {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  30.5s;
+     opacity: 1;
+ }
+.animation-sixteen.bounceInLeft{
+    opacity:1;
+}
+.animation-seventeen {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  32.5s;
+     opacity: 1;
+ }
+.animation-seventeen.bounceInLeft{
+    opacity:1;
+}
+.animation-eighteen {
+     -webkit-animation-duration:  1.5s;
+     -moz-animation-duration:  1.5s;
+     animation-duration:  1.5s;
+     -moz-animation-delay:  6.5s;
+     -webkit-animation-delay:  6.5s;
+     animation-delay:  34.5s;
+     opacity: 1;
+ }
+.animation-eighteen.bounceInLeft{
+    opacity:1;
+}
+.animation-nineteen {
+    -webkit-animation-duration:  1.5s;
+    -moz-animation-duration:  1.5s;
+    animation-duration:  1.5s;
+    -moz-animation-delay:  6.5s;
+    -webkit-animation-delay:  6.5s;
+    animation-delay:  36.5s;
+    opacity: 1;
+}
+.animation-nineteen.bounceInLeft{
+    opacity:1;
+}
+
+
+
+
+
+
 
 #bookSubTitle {
     color:whitesmoke;
