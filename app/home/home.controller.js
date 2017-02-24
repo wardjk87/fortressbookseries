@@ -3,6 +3,7 @@
 'use strict';
 
 angular.module('homepageManager').controller('homeController', function($scope, chapterOneApi){
+    $scope.revealSynopsis = true;
 
 
 
