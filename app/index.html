@@ -15,9 +15,11 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="public/css/normalize.css">
-        <link rel="stylesheet" href="public/css/main.css">
         <script src="public/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="public/vendor/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/main.css">
+
+
         <!--<link href="https://fonts.googleapis.com/css?family=Alegreya+SC:900|Alegreya+Sans+SC:900|Alegreya:900|Alfa+Slab+One|Allerta+Stencil|Arimo|Audiowide|Basic|Black+Ops+One|Bowlby+One+SC|Bungee+Inline|Capriola|Carter+One|Cinzel|Cutive+Mono|Diplomata|Diplomata+SC|Doppio+One|Faster+One|Fira+Mono|Graduate|Jockey+One|Josefin+Slab|Kanit:800|Lato|Lekton|Monoton|Open+Sans|Orbitron|Oswald|PT+Serif|Playfair+Display|Pontano+Sans|Quantico|Racing+Sans+One|Rammetto+One|Roboto|Russo+One|Sarala|Sarpanch:900|Six+Caps|Slabo+27px|Space+Mono|Stalinist+One|Tienne:900|Titillium+Web:900|Ubuntu+Mono|Ultra|Unlock|Vollkorn" rel="stylesheet">-->
         <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Audiowide|Black+Ops+One&effect=crackle|Diplomata|Jockey+One|Quantico|Russo+One|Unlock" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family= Open+Sans+Condensed:300|Oswald|Roboto+Condensed|Six+Caps" rel="stylesheet">
@@ -42,9 +44,8 @@
 
             <h1 id="bookAuthor">By R. E. Crofton</h1>
 
-
-
         </div>
+
 
         <div ng-view autoscroll="true">
 
@@ -65,6 +66,7 @@
         <script src="public/js/plugins.js"></script>
         <script src="public/js/main.js"></script>
         <script src="public/vendor/angular/angular.js"></script>
+        <script src="public/vendor/angularUtils-pagination/dirPagination.js"></script>
 
         <script src="public/vendor/bootstrap/dist/js/bootstrap.js"></script>
         <script src="public/vendor/angular-route/angular-route.js"></script>
@@ -74,8 +76,12 @@
         <script src="public/vendor/ng-parallax/angular-parallax.min.js"></script>
         <script src="home/home.module.js"></script>
         <script src="home/home.controller.js"></script>
+        <script src="home/home.component-chapterSample.js"></script>
+        <script src="home/home.component-synopsis.js"></script>
+        <script src="home/home.component-tableOfContents.js"></script>
         <script src="core/core.module.js"></script>
         <script src="core/core.controller-parralax.js"></script>
+        <script src="core/core.service-chapterOneData.js"></script>
         <script src="app.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
