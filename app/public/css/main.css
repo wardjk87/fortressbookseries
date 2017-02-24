@@ -9,123 +9,8 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-.pictureBackground1 {
-    background-image: url("../img/fortressSiteHeaderImage.jpeg");
 
-    height: 750px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground2 {
-    background-image: url("https://static.pexels.com/photos/165553/pexels-photo-165553.jpeg");
 
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground3 {
-    background-image: url("https://static.pexels.com/photos/158316/kinzig-fischer-bach-black-forest-water-158316.jpeg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.pictureBackground4 {
-    background-image: url("https://static.pexels.com/photos/134586/pexels-photo-134586.jpeg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.pictureBackground5 {
-    background-image: url("https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground6 {
-    background-image: url("https://static.pexels.com/photos/237298/pexels-photo-237298.jpeg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground7 {
-    background-image: url("https://static.pexels.com/photos/28506/pexels-photo-28506.jpg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground8 {
-    background-image: url("https://static.pexels.com/photos/247175/pexels-photo-247175.jpeg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground9 {
-    background-image: url("https://static.pexels.com/photos/28505/pexels-photo-28505.jpg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pictureBackground10 {
-     background-image: url("https://static.pexels.com/photos/192651/pexels-photo-192651.jpeg");
-
-     height: 500px;/* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: 90%;
-     background-repeat: no-repeat;
-     background-size: cover;
- }
-.pictureBackground11 {
-    background-image: url("https://static.pexels.com/photos/111255/pexels-photo-111255.jpeg");
-
-    height: 500px;/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.imgSocialMediaDiabetesThree {
-    padding: 25px;
-    display: table;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 500;
-}
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -207,19 +92,612 @@ textarea {
    ========================================================================== */
 
 
+.pictureTitleBackground {
+    background-image: url("../img/fortressSiteHeaderImage.jpeg");
+
+    height: 1250px;/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bookTitle {
+    font-family: 'Black Ops One', cursive;
+    font-size: 200px;
+    margin-top:250px;
+    color: rgba(203,0,0,0.85);
+    text-shadow: 10px 10px 10px #2e2e2e;
+    letter-spacing: 2px;
+}
+
+#bookSubTitle {
+    color:whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 8px 8px 8px black;
+    font-size: 80px;
+    margin-top: -10px
+}
+
+#bookAuthor {
+    color:gold;
+    font-family: 'Quantico', sans-serif;
+    text-shadow: 6px 6px 6px black;
+    margin-top: 75px;
+    font-size: 70px
+}
+.synopsisDivOne {
+    padding: 25px;
+    display: table;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    margin-top: 500px;
+
+}
+
+.synopsisDivTwo {
+    padding: 25px;
+    display: table;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    margin-top: 200px;
+}
+
+.synopsisDivThree, .synopsisDivSix {
+    padding: 25px;
+    display: table;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    margin-top: 350px;
+}
+
+.synopsisDivFour {
+    padding: 25px;
+    display: table;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    margin-top: 350px;
+}
+
+.synopsisHeader {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.synopsisHeader h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    color: red;
+    text-align: center
+}
+
+.synopsisHeader h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.synopsisArticleOne {
+    margin-top: 0;
+}
+
+.synopsisArticleTwo {
+    margin-top: -200px;
+}
+.synopsisArticleThree {
+    margin-top: 375px;
+}
+
+.synopsisArticleFour {
+    margin-top: 375px;
+}
+
+.synopsisArticleFive {
+    margin-top: -700px;
+}
+.synopsisArticleSix {
+    margin-top: -200px;
+
+}
+
+.synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1{
+    font-family:'Oswald', sans-serif;
+    color: #fff1f1;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 150%;
+    font-size: 45px;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/**
+ Media Queries Home
+ */
 
 
 
 
+@media only screen and (max-width: 2000px ) {
+    .pictureTitleBackground {
+        height: 1150px
+    }
+
+    .synopsisHeader {
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .synopsisArticleThree {
+            margin-top: 550px;
+    }
+    .synopsisArticleFour {
+        margin-top: 250px;
+    }
+    .synopsisArticleFive{
+        margin-top: -500px;
+    }
+    .synopsisDivFour {
+
+        margin-top: 275px;
+    }
+}
+
+@media only screen and (max-width: 1750px ) {
 
 
+    .pictureTitleBackground {
+        height: 900px;/* Create the parallax scrolling effect */
+    }
+
+    #bookTitle {
+        font-family: 'Black Ops One', cursive;
+        font-size: 150px;
+        margin-top: 175px;
+        text-shadow: 6px 6px 6px #2e2e2e;
+    }
+
+    #bookSubTitle {
+        text-shadow: 6px 6px 6px black;
+        font-size: 60px;
+    }
+
+    #bookAuthor {
+        margin-top: 75px;
+        font-size: 50px
+    }
+
+    .synopsisHeader {
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .synopsisHeader h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 75px;
+        color: red;
+        text-align: center
+    }
+
+    .synopsisHeader h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        color: whitesmoke;
+    }
+
+    .synopsisDivOne {
+        position: absolute;
+        margin-top: 300px;
+    }
 
 
+    .synopsisArticleFour {
+        margin-top: 275px;
+    }
+
+    .synopsisArticleFive {
+        margin-top: -500px;
+    }
+
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 36px;
+    }
+
+}
 
 
+@media only screen and (max-width: 1500px ) {
 
 
+    .synopsisDivOne {
+        position: absolute;
+        margin-top: 250px;
+    }
 
+    .synopsisDivTwo {
+
+        margin-top: 200px;
+    }
+
+    .synopsisDivThree,  .synopsisDivSix {
+
+        margin-top: 300px;
+    }
+
+    .synopsisDivFour {
+
+        margin-top: 350px;
+    }
+
+
+    .synopsisArticleTwo {
+        margin-top: -150px;
+    }
+    .synopsisArticleFour {
+        margin-top: 200px;
+    }
+    .synopsisArticleThree {
+        margin-top: 350px;
+    }
+    .synopsisArticleFive {
+        margin-top: -325px;
+    }
+    .synopsisArticleSix {
+        margin-top: -50px;
+    }
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 36px;
+    }
+
+}
+
+@media only screen and (max-width: 1350px ) {
+
+    .pictureTitleBackground {
+        height: 900px;/* Create the parallax scrolling effect */
+    }
+
+    #bookTitle {
+        font-family: 'Black Ops One', cursive;
+        font-size: 125px;
+        margin-top: 175px;
+        text-shadow: 6px 6px 6px #2e2e2e;
+    }
+
+    #bookSubTitle {
+        text-shadow: 6px 6px 6px black;
+        font-size: 50px;
+    }
+
+    #bookAuthor {
+        margin-top: 75px;
+        font-size: 40px
+    }
+
+    .synopsisHeader {
+        height: 250px;
+        margin-top: 50px;
+    }
+
+    .synopsisHeader h1 {
+        font-size: 60px;
+
+    }
+
+    .synopsisHeader h2 {
+        font-size: 45px;
+    }
+
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px ) {
+
+    .synopsisHeader {
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .synopsisHeader h1 {
+        font-size: 60px;
+
+    }
+
+    .synopsisHeader h2 {
+        font-size: 45px;
+    }
+
+    .synopsisArticleSix {
+        margin-top: 0;
+    }
+    .synopsisDivSix {
+        margin-top: 200px;
+    }
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 27px;
+    }
+    .synopsisDivOne {
+        margin-top: 200px;
+    }
+    .synopsisArticleTwo {
+        margin-top: 200px;
+    }
+    .synopsisArticleFive {
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 991px ) {
+    .pictureTitleBackground {
+        height: 700px;/* Create the parallax scrolling effect */
+    }
+
+    #bookTitle {
+        font-family: 'Black Ops One', cursive;
+        font-size: 110px;
+        margin-top: 155px;
+        text-shadow: 6px 6px 6px #2e2e2e;
+    }
+
+    #bookSubTitle {
+        text-shadow: 6px 6px 6px black;
+        font-size: 45px;
+    }
+
+    #bookAuthor {
+        margin-top: 55px;
+        font-size: 36px
+    }
+    .synopsisHeader {
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .synopsisHeader h1 {
+        font-size: 50px;
+
+    }
+
+    .synopsisHeader h2 {
+        font-size: 40px;
+    }
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 24px;
+    }
+    .synopsisDivFour {
+
+        margin-top: 250px;
+    }
+    .synopsisDivThree {
+
+        margin-top: 225px;
+    }
+    .synopsisDivSix {
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 767px ) {
+
+    .pictureTitleBackground {
+        height: 600px;/* Create the parallax scrolling effect */
+        background-position: 60%;
+
+    }
+
+    #bookTitle {
+        font-family: 'Black Ops One', cursive;
+        font-size: 80px;
+        margin-top: 115px;
+        text-shadow: 6px 6px 6px #2e2e2e;
+    }
+
+    #bookSubTitle {
+        text-shadow: 5px 5px 5px black;
+        font-size: 36px;
+    }
+
+    #bookAuthor {
+        margin-top: 47px;
+        font-size: 32px
+    }
+    .synopsisHeader {
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .synopsisHeader h1 {
+        font-size: 36px;
+    }
+
+    .synopsisHeader h2 {
+        font-size: 32px;
+        margin-top: 5px;
+    }
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 20px;
+    }
+    .synopsisDivOne {
+        margin-top: 150px;
+    }
+    .synopsisDivFour {
+
+        margin-top: 200px;
+    }
+    .synopsisDivThree {
+
+        margin-top: 200px;
+    }
+    .synopsisDivSix {
+        margin-top: 150px;
+    }
+    .synopsisArticleFive {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px ) {
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 16px; letter-spacing: 0;
+    }
+    .synopsisDivFour {
+
+        margin-top: 150px;
+    }
+
+}
+@media only screen and (max-width: 599px ) {
+
+    .synopsisDivOne {
+        margin-top: 100px;
+    }
+    .synopsisDivTwo {
+
+        margin-top: 150px;
+    }
+    .synopsisHeader h1 {
+        font-size: 32px;
+    }
+
+    .synopsisHeader h2 {
+        font-size: 28px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 499px ) {
+
+
+    #bookTitle {
+        font-family: 'Black Ops One', cursive;
+        font-size: 60px;
+        margin-top: 115px;
+        text-shadow: 5px 5px 5px #2e2e2e;
+    }
+
+    #bookSubTitle {
+        text-shadow: 4px 4px 4px black;
+        font-size: 30px;
+    }
+
+    #bookAuthor {
+        margin-top: 47px;
+        font-size: 28px
+    }
+    .synopsisHeader {
+        height: 150px;
+    }
+    .synopsisHeader h1 {
+        font-size: 26px;
+    }
+
+    .synopsisHeader h2 {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .synopsisDivOne {
+        margin-top: 100px;
+    }
+    .synopsisDivTwo {
+
+        margin-top: 75px;
+    }
+    .synopsisDivThree {
+
+        margin-top: 100px;
+    }
+    .synopsisDivFour {
+
+        margin-top: 100px;
+    }
+    .synopsisDivSix {
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width: 380px ) {
+    .pictureTitleBackground {
+        height: 500px;/* Create the parallax scrolling effect */
+        background-position: 50%;
+
+    }
+    .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
+        font-size: 14px; letter-spacing: 0;
+    }
+    #bookTitle {
+        font-family: 'Black Ops One', cursive;
+        font-size: 45px;
+        margin-top: 80px;
+        text-shadow: 5px 5px 5px #2e2e2e;
+    }
+
+    #bookSubTitle {
+        text-shadow: 4px 4px 4px black;
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    #bookAuthor {
+        margin-top: 40px;
+        font-size: 22px
+    }
+    .synopsisHeader {
+        height: 150px;
+    }
+    .synopsisHeader h1 {
+        margin-top: -20px;
+        font-size: 22px;
+    }
+
+    .synopsisHeader h2 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .synopsisDivOne {
+        margin-top: 50px;
+    }
+    .synopsisDivTwo {
+
+        margin-top: 55px;
+    }
+    .synopsisDivThree {
+
+        margin-top: 75px;
+    }
+    .synopsisDivFour {
+
+        margin-top: 75px;
+    }
+    .synopsisDivSix {
+        margin-top: 120px;
+    }
+    .synopsisArticleSix {
+        margin-top: 70px;
+    }
+    .synopsisArticleThree {
+        margin-top: 150px;
+    }
+}
 
 
 /* ==========================================================================
