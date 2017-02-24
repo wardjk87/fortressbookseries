@@ -2,5 +2,6 @@
 
 'use strict';
 angular.module('homepageManager',[
-    'duParallax'
+    'duParallax',
+    'angularUtils.directives.dirPagination'
 ]);

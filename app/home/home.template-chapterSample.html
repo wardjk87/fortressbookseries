@@ -1,0 +1,8 @@
+<div class="container-fluid">
+    <div class=" chapterPageBackground " dir-paginate="paragraph in chapterOne.paragraphs | itemsPerPage:1">
+        <p class="animate-repeat-tablerow angular-with-newlines">{{paragraph.content }}</p>
+        <p class="animate-repeat-tablerow" style="text-align: end; color: darkred"> Page #: {{paragraph.id}}</p>
+    </div>
+    <dir-pagination-controls>
+    </dir-pagination-controls>
+</div>
