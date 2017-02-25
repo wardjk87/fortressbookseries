@@ -738,24 +738,35 @@ video {
 
 .synopsisArticleOne {
     margin-top: 0;
+    opacity: .95;
 }
 
 .synopsisArticleTwo {
     margin-top: -200px;
+    opacity: .95;
+
 }
 .synopsisArticleThree {
     margin-top: 375px;
+    opacity: .95;
+
 }
 
 .synopsisArticleFour {
     margin-top: 375px;
+    opacity: .95;
+
 }
 
 .synopsisArticleFive {
     margin-top: -700px;
+    opacity: .95;
+
 }
 .synopsisArticleSix {
     margin-top: -200px;
+    opacity: .95;
+
 
 }
 
