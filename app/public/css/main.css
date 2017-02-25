@@ -594,11 +594,12 @@ fieldset[disabled] .btn-ghost.focus {
 video {
     z-index: 100;
     position: fixed;
-    margin-top: -7%;
-    opacity: .18;
-    width: 100%;
+    opacity: .20;
+    top: -5%;
+    height: 100%;
+    width: auto;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: 100%;
     min-height: 1250px
 
 }
