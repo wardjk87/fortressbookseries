@@ -2,6 +2,8 @@
     <div class="chapterPageBackground " dir-paginate="paragraph in chapterOne.paragraphs | itemsPerPage:1">
         <p class="angular-with-newlines">{{paragraph.content }}</p>
     </div>
-    <dir-pagination-controls>
+    <dir-pagination-controls class=" hidden-sm hidden-md hidden-lg" max-size="5">
+    </dir-pagination-controls>
+    <dir-pagination-controls class="hidden-xs" max-size="7">
     </dir-pagination-controls>
 </div>
