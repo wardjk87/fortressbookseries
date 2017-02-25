@@ -1,11 +1,11 @@
 $(document).ready(function() {
     $('#bookTitle').waypoint(function () {
-        $('#bookTitle').addClass('bounceInLeft');
+        $('#bookTitle').addClass('fadeIn');
     }, {offset: '80%'});
     $('#bookSubTitle').waypoint(function () {
-        $('#bookSubTitle').addClass('bounceInLeft');
+        $('#bookSubTitle').addClass('fadeIn');
     }, {offset: '80%'});
     $('#bookAuthor').waypoint(function () {
-        $('#bookAuthor').addClass('bounceInLeft');
+        $('#bookAuthor').addClass('fadeIn');
     }, {offset: '80%'});
 });

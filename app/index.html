@@ -38,15 +38,25 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="jumbotron text-center pictureTitleBackground" style="background-color: white; margin-bottom: 0;">
 
-            <h1 id="bookTitle" class="animation-one animated bounceInLeft"   >FORTRESS</h1>
-            <h1 id="bookSubTitle" class="animation-two animated bounceInLeft" >DIVINELY PROTECTED</h1>
+        <div class="jumbotron pictureTitleBackground" style="background-color: white; margin-bottom: 0;">
+            <video preload="none"  id="homevideo" autoplay="autoplay" poster="public/img/fortressSiteHeaderImage.jpeg"
+                   loop="loop" >
+                <source src="public/img/581513685.mp4" type="video/mp4"/>
 
-            <h1 id="bookAuthor" class="animation-three animated bounceInLeft">By R. E. Crofton</h1>
+                Sorry your browser does not support the video functionality. You can <a href="https://vimeo.com/197094656">download it</a>
+                <object width="100%" height="100%" type="application/x-shockwave-flash" data="http://vimeo.com/moogaloop.swf?clip_id=91383150&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0">
+                    <param name="wmode" value="transparent" />
+                    <param name="movie" value="https://vimeo.com/197094656/&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" />
+                </object>
+
+            </video>
+            <h1 id="bookTitle" class="animation-one animated fadeIn "   >FORTRESS</h1>
+            <h1 id="bookSubTitle" class="animation-two animated fadeIn"  >DIVINELY PROTECTED</h1>
+
+            <h1 id="bookAuthor" class="animation-three animated fadeIn"  >By R. E. Crofton</h1>
 
         </div>
-
 
         <div ng-view autoscroll="true">
 
