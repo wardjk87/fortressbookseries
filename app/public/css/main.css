@@ -318,6 +318,7 @@ fieldset[disabled] .btn-ghost.focus {
     color: #1a1a1a;
     font-size: 24px;
     padding: 20px 50px;
+
 }
 
 
@@ -578,7 +579,7 @@ fieldset[disabled] .btn-ghost.focus {
 }
 
 .pictureTitleBackground {
-    background-image: url("../img/fortressSiteHeaderImage.jpeg");
+    background-image: url("../img/fortressSiteHeaderImage.jpg");
 
     height: 1250px;/* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -612,8 +613,13 @@ video {
 
 .homeFooter a {
     z-index: 1200;
-    position: absolute;
-    padding-left: 5px
+    position: relative;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.homeFooter h3 {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -1034,6 +1040,12 @@ html {
         min-height: 700px;
 
     }
+    .homeFooter div {
+         margin-top: 75px;
+     }
+    .homeFooter h3, h4 {
+        font-size: 18px;
+    }
 
     #bookTitle {
         font-family: 'Black Ops One', cursive;
@@ -1150,16 +1162,12 @@ html {
     }
 
     .homeFooter div {
-        background-color: transparent;
-        margin-top:50px;
-        color: ghostwhite;
+        margin-top:100px;
     }
-    .homeFooter h3 {
-        font-size: 18px;
+    .homeFooter h3, h4 {
+        font-size: 15px;
     }
-    .homeFooter h4 {
-        font-size: 16px;
-    }
+
 
 }
 
@@ -1302,6 +1310,15 @@ html {
 
         color: #1a1a1a;
         font-size: 16px;
+    }
+    .homeFooter div {
+        z-index: 2000;
+        padding-top: 1px;
+        background-color: black;
+
+    }
+    .homeFooter h3, h4 {
+        font-size: 12px;
     }
 }
     @media only screen and (max-width: 496px ) {
