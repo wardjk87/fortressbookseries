@@ -610,6 +610,8 @@ video {
     margin-top:50px;
     color: ghostwhite;
     z-index: 2000;
+    position: relative;
+;
 }
 
 .homeFooter a {
