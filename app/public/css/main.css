@@ -1169,7 +1169,7 @@ html {
     }
 
     .homeFooter div {
-        margin-top:60px;
+        margin-top:90px;
     }
     .homeFooter h3, h4 {
         font-size: 15px;
@@ -1344,7 +1344,9 @@ html {
         }
 
         .homeFooter h3 {
-            font-size: 12px;
+            font-size: 10px;
+            flex-wrap: wrap;
+            word-break: break-all;
         }
         .homeFooter h4 {
             font-size: 10px;
