@@ -606,9 +606,12 @@ video {
 }
 
 .homeFooter div {
-    background-color: transparent;
+    background-color: black;
     margin-top:50px;
     color: ghostwhite;
+    z-index: 2000;
+    position: relative;
+;
 }
 
 .homeFooter a {
@@ -988,6 +991,10 @@ html {
         font-size: 20px;
 
     }
+    .homeFooter div {
+        margin-top:170px;
+
+    }
     #tableOfContents {
         margin-top: 0;
     }
@@ -1041,7 +1048,7 @@ html {
 
     }
     .homeFooter div {
-         margin-top: 75px;
+         margin-top: 125px;
      }
     .homeFooter h3, h4 {
         font-size: 18px;
@@ -1162,7 +1169,7 @@ html {
     }
 
     .homeFooter div {
-        margin-top:100px;
+        margin-top:60px;
     }
     .homeFooter h3, h4 {
         font-size: 15px;
@@ -1200,7 +1207,7 @@ html {
         min-height: 500px;
         background-attachment: scroll;
         background-size: 110%;
-        background-image: url("../img/fortressSiteHeaderImage copy.jpeg");
+        background-image: url("../img/fortressSiteHeaderImage(mobile).jpeg");
 
     }
     .synopsisDivOne {
@@ -1333,7 +1340,7 @@ html {
         margin-bottom: 25px;
     }
         .homeFooter div {
-            margin-top: 70px;
+            margin-top: 50px;
         }
 
         .homeFooter h3 {
