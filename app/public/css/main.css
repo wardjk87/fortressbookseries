@@ -731,6 +731,33 @@ video {
     cursor: pointer;
 
 }
+
+.synopsisHeader li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: gold;
+    margin-top: 20px;
+    margin-right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+
+}
+
+.synopsisHeader li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: gold;
+    z-index: 1000;
+    cursor: pointer;
+    padding: 0;
+
+}
+
+.synopsisHeader li a:hover{
+    background-color: #c9302c;
+    color: white;
+
+}
 #tableOfContents li strong{
     color:ghostwhite;
     font-family: Futura, "Helvetica Neue", sans-serif;
@@ -868,7 +895,7 @@ html {
         text-align: center
     }
 
-    .synopsisHeader li {
+    .synopsisHeader li, .synopsisHeader li a {
         font-family: 'Oswald', sans-serif;
         font-size: 50px;
     }
@@ -976,7 +1003,7 @@ html {
 
     }
 
-    .synopsisHeader li {
+    .synopsisHeader li, .synopsisHeader li a {
         font-size: 45px;
     }
 
@@ -1009,7 +1036,7 @@ html {
 
     }
 
-    .synopsisHeader li {
+    .synopsisHeader li, .synopsisHeader li a {
         font-size: 45px;
     }
 
@@ -1084,7 +1111,7 @@ html {
         font-size: 30px;
 
     }
-    .synopsisHeader li {
+    .synopsisHeader li, .synopsisHeader li a {
         font-size: 40px;
     }
     .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
@@ -1143,6 +1170,10 @@ html {
     .synopsisHeader li {
         font-size: 24px;
         margin-top: 5px;
+    }
+
+     .synopsisHeader li a {
+        font-size: 24px;
     }
     .synopsisDivOne h1, .synopsisDivTwo h1, .synopsisDivThree h1, .synopsisDivFour h1,  .synopsisDivSix h1 {
         font-size: 20px;
@@ -1236,12 +1267,15 @@ html {
         font-size: 18px;
 
     }
-    .synopsisHeader li {
+    .synopsisHeader li{
         font-size: 18px;
         margin-top: 5px;
         margin-right: 15px;
         display: block;
     }
+    .synopsisHeader li a {
+      font-size: 18px;
+  }
 }
 @media only screen and (max-width: 499px ) {
     .pagination > li {
@@ -1286,11 +1320,14 @@ html {
         padding-top: 0;
     }
 
-    .synopsisHeader li {
+    .synopsisHeader li, .synopsisHeader li a {
         font-size: 18px;
         margin-top: 5px;
     }
+    .synopsisHeader li a {
+      font-size: 18px;
 
+  }
     .synopsisDivOne {
         margin-top: 100px;
     }
@@ -1332,7 +1369,7 @@ html {
     .synopsisButton {
         margin-left: 0;
     }
-        .synopsisHeader li {
+        .synopsisHeader li{
             padding: 3px 6px;
         }
     .firstChapterButton.btn-danger{
@@ -1364,6 +1401,10 @@ html {
         font-size: 15px;
         margin-right: 5px;
         padding: 2px 4px;
+    }
+    .synopsisHeader li a {
+        font-size: 15px;
+
     }
     .firstChapterButton.btn-danger{
         margin-left: 30%;
@@ -1401,6 +1442,10 @@ html {
         font-size: 18px;
         margin-top: 5px;
     }
+    .synopsisHeader li a {
+        font-size: 18px;
+
+    }
     .synopsisDivOne {
         margin-top: 50px;
     }
@@ -1434,6 +1479,10 @@ html {
     .synopsisHeader li {
         font-size: 15px;
         margin-top: 5px;
+    }
+    .synopsisHeader li a {
+        font-size: 15px;
+
     }
     .synopsisButton {
         margin-left: 0;
